@@ -1,0 +1,64 @@
+# Game dump & bytecode (copyrighted - NEVER commit!)
+romfs/
+romfs_mod/
+*.binu8
+*.rar
+
+# Patch output
+DC3PS_Indo_Patch/
+DC3PS_Translation_Patch/
+DC3PS_Translation_Patch.zip
+Da Capo III Plus Story Patch/
+
+# Custom font config (user-provided, from their own game dump)
+romfs/Custom Config/
+
+# Python cache & virtualenvs
+__pycache__/
+*.pyc
+*.pyo
+.env/
+venv/
+
+# Scratch & test outputs
+scratch/
+png_work/
+test_*.py
+test_*.json
+test_*.binu8
+check_continuation_name.py
+analyze_session.py
+extract_conv.py
+inspect_*.py
+
+# ExeFS dumps & patches (copyrighted code - NEVER commit/upload!)
+scratch/exefs_dump/
+scratch/exefs_patch/
+exefs_dump/
+exefs_patch/
+main
+main.bin
+main.npdm
+rtld
+
+# Third-party / external dumps
+Aquarium_tools/
+BijikTools-v0.6-beta2/
+BijikTools-v0.6-beta2.rar
+DC4fdswtich tool.rar
+
+# Release artifacts (created locally)
+release/
+*.zip
+*.old
+
+# Switch Keys & Packages (Do not commit!)
+*.keys
+*.dat
+*.nsp
+*.nca
+prod.keys
+title.keys
+nsp_mod_maker_tool/
+NSPModMaker.exe_extracted/
+pyinstxtractor.py
