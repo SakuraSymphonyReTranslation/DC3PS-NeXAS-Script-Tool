@@ -1,5 +1,7 @@
 # Game dump & bytecode (copyrighted - NEVER commit!)
-romfs/
+romfs/*
+!romfs/Custom Config/
+!romfs/Custom Config/system.datu8
 romfs_mod/
 *.binu8
 *.rar
@@ -9,9 +11,6 @@ DC3PS_Indo_Patch/
 DC3PS_Translation_Patch/
 DC3PS_Translation_Patch.zip
 Da Capo III Plus Story Patch/
-
-# Custom font config (user-provided, from their own game dump)
-romfs/Custom Config/
 
 # Python cache & virtualenvs
 __pycache__/
