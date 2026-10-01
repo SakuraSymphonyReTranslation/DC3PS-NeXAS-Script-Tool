@@ -68,6 +68,9 @@
 [character] ご主人様 = Goshujin-sama {male name}
 [character] マスター = Master {male name}
 [character] エドガー = Edgar {male name}
+[character] 美少女 = Gadis Cantik {beautiful girl; Ricca's nickname in the Kiyotaka reunion scene (dc3_1_0222). NOT a personal name - do not join with 残念な娘 as one entry}
+[character] 美少女？ = Gadis Cantik? {question-mark variant of 美少女 - MUST include the question mark: "Gadis Cantik?"}
+[character] 残念な娘 = Gadis Aneh {lit. hopeless/disappointing girl; Kiyotaka's mental nickname for Ricca in the same reunion scene (dc3_1_0222)}
 [character] 芳乃さくら = Yoshino Sakura {female name}
 [character] さくら = Sakura {female name}
 [character] エリカ・ムラサキ = Erika Murasaki {female name}
