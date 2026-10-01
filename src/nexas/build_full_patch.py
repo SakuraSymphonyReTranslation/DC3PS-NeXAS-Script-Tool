@@ -47,7 +47,10 @@ LINE = '=' * 79
 
 def count_glob(pattern: str) -> int:
     import glob
-    return len(glob.glob(pattern))
+    # recursive=True WAJIB: pola '**/*.binu8' tanpa flag ini hanya cocok
+    # dengan file di dalam SUBFOLDER, bukan langsung di Script_Mod ->
+    # dulu menyebabkan patch selalu dibangun tanpa naskah scenario.
+    return len(glob.glob(pattern, recursive=True))
 
 
 def default_video() -> Path | None:
