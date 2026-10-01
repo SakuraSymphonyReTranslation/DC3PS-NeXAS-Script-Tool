@@ -4,7 +4,7 @@ speaker_audit.py — Audit nama speaker naskah vs glossarium.
 
 CSTL (atho64.github.io/cstl) menolak paste terjemahan dengan error
 "[#N] Nama karakter hilang" bila parser-nya gagal memisahkan nama speaker
-dari baris paste (mis. nama mengandung tanda baca seperti "Gadis Cantik?").
+dari baris paste (mis. nama dengan tanda baca seperti "Gadis Cantik?").
 Menambahkan entri nama ke glossarium + panel "Terjemahan Nama Karakter"
 membuat parser yakin bahwa "Nama: pesan" adalah pemisahan yang benar.
 
