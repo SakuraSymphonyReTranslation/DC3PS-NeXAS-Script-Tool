@@ -52,8 +52,8 @@ Toolkit ekstraksi dan injeksi naskah skrip visual novel berbasis engine **Circus
 | Jumlah script | 598 file `.binu8` (± 70.000 entri dialog/narasi) — terverifikasi round-trip byte-safe |
 | Format bytecode | `VER-1.00`, opcode pembicara `(0,nama),(5,1),(0,pesan)`; hanya `__global.binu8` yang beda (bukan naskah, otomatis dilewati) |
 | Lokasi RomFS | Otomatis: `../romfs` di samping repo tool (layout dump Eden). Override: env `DC3PS_ROMFS=/path/ke/romfs` |
-| Timeline ganda | Era kini (Pulau Hatsune) vs era Victoria (dormitory island) — satu karakter punya 2 kode suara, mis. リッカ = `rcc` (kini) / `rccc` (Victoria), サラ = `sra` / `sraa` |
-| Peta kode karakter | `hmn`=姫乃, `rcc`=リッカ, `sra`=サラ, `srr`=シャルル, `aoi`=葵, `mkt`=美琴, `ksk`=耕助, `sgn`=杉並, `tru`/`rccc`=era Victoria, `gil`=ジル, `erz`=エリザベス, `hms`=メアリー, `wts`=エドワード, `ian`=イアン, `eto`=エト, `ski`=四季, `tme`=巴, `odt`=瑠璃香 |
+| Timeline ganda | Era kini (Pulau Hatsune, ~2051) vs era London 1951 (pulau asrama) — satu karakter punya 2 kode suara, mis. リッカ = `rcc` (kini) / `rccc` (London 1951), サラ = `sra` / `sraa` |
+| Peta kode karakter | `hmn`=姫乃, `rcc`=リッカ, `sra`=サラ, `srr`=シャルル, `aoi`=葵, `mkt`=美琴, `ksk`=耕助, `sgn`=杉並, `tru`/`rccc`=era London 1951, `gil`=ジル, `erz`=エリザベス, `hms`=メアリー, `wts`=エドワード, `ian`=イアン, `eto`=エト, `ski`=四季, `tme`=巴, `odt`=瑠璃香 |
 | Tag khusus DC3 | `@g－` (gaiji dash) dibersihkan otomatis saat ekstraksi; tag `@h...` memakai penamaan sprite khas DC3 |
 | Word wrap | Rekomendasi **56 kolom** (baris asli DC3 terpanjang ± 148 kolom, wrap wajib untuk teks Latin) |
 | Tool UI | Mengekstrak 762 string SPM + 917 string Config; **`Config/system.datu8` DC3PS adalah format font khusus (bukan tabel datu8) dan otomatis dilewati** |
