@@ -6,9 +6,9 @@
 [character] 音姫 = Otome {female name}
 [character] 朝倉由夢 = Asakura Yume {female name}
 [character] 由夢 = Yume {female name}
-[character] 森園立夏 = Morizono Rikka {female name; kanji spelling of the PRESENT-DAY self (Pulau Hatsune / Akademi Kazami era); Rikka's past life is Ricca Greenwood}
+[character] 森園立夏 = Morizono Rikka {female name; kanji spelling of the Hatsune-Island self (D.C.III main story, 1950s); Rikka's past life is Ricca Greenwood}
 [character] 森園 = Morizono {family name}
-[character] 立夏 = Rikka {female name; kanji spelling = PRESENT-DAY era (Pulau Hatsune / Akademi Kazami). NEVER use "Ricca" for the kanji 立夏; the katakana リッカ (1951 London era) is Ricca}
+[character] 立夏 = Rikka {female name; kanji spelling = D.C.III main story, Hatsune Island (1950s; Akademi Kazami). NEVER use "Ricca" for the kanji 立夏; the katakana リッカ (1951 London, Weather Vane arc) is Ricca}
 [character] 孤高のカトレア = The Lone Cattleya {Ricca Greenwood's witch-era epithet (katakana: リッカ・グリーンウッド). Translate as an EPITHET, not a personal name}
 [character] 芳乃シャルル = Yoshino Charles {female name}
 [character] 芳乃 = Yoshino {family name}
@@ -94,9 +94,9 @@
 [term] 本科 = Reguler {regular course of the 1951 London era; top 3 本科生 become マスター supervisors of 予科クラス. Do NOT confuse with 本校}
 [term] 予科クラス = kelas persiapan {prep class in the 1951 London era}
 [term] 本科クラス = kelas reguler {regular class in the 1951 London era}
-[term] 本校 = Sekolah Utama {ONLY for Akademi Kazami in the modern era. Do NOT confuse with 本科 (the 1951-London regular course)}
-[term] 本校生 = Siswa Sekolah Utama {main-school student of Akademi Kazami, modern era}
-[concept] 付属 = Sekolah Afiliasi {ONLY for Akademi Kazami in the modern era (風見学園付属). NEVER for the 1951 London era}
+[term] 本校 = Sekolah Utama {ONLY for Akademi Kazami (D.C.III main story). Do NOT confuse with 本科 (the 1951-London regular course)}
+[term] 本校生 = Siswa Sekolah Utama {main-school student of Akademi Kazami, D.C.III main story}
+[concept] 付属 = Sekolah Afiliasi {ONLY for Akademi Kazami in the D.C.III main story (風見学園付属). NEVER for the London arc}
 [term] 風見学園付属 = Afiliasi Akademi Kazami {e.g. 風見学園付属３年 = 3rd year of the Akademi Kazami affiliated school}
 [term] 風見鶏 = Weather Vane {nickname of the 王立ロンドン魔法学園 and the 1951-London school community; 520 occurrences. Pick ONE spelling and stay consistent (alternative: Kazamidori)}
 [term] ウェザーベイン = Weather Vane {katakana form; refers to the 1951-London dorm/organization: ウェザーベインの学生寮}
@@ -106,8 +106,8 @@
 [term] 飛び級 = Percepatan kelas {grade skipping; e.g. ２年に飛び級してきた = skipped straight into year 2}
 [term] 風紀委員 = Komite Tata Tertib {風紀委員の委員長 = committee chairwoman; Shiki's role in Akademi Kazami}
 [term] 生徒会 = Dewan Siswa {生徒会役員 = student council officers; 生徒会室 = student council room}
-[term] ヨシユキ = Yoshiyuki {katakana; how the 1951-London/Sakura arc refers to Sakurai Yoshiyuki}
-[term] オトメ = Otome {katakana; how the 1951-London/Sakura arc refers to Asakura Otome}
+[term] ヨシユキ = Yoshiyuki {katakana; how Sakura refers to Sakurai Yoshiyuki in the final Sakura chapter (dc3_3_1311/1312). A D.C.II-era (2050s) figure, NOT part of the 1951-London cast}
+[term] オトメ = Otome {katakana; how Sakura refers to Asakura Otome in the final Sakura chapter (dc3_3_1311/1312). A D.C.II-era (2050s) figure, NOT part of the 1951-London cast}
 [term] 先輩 = Senpai {DUAL-STYLE RULE: (1) When ATTACHED TO A NAME (e.g. 杉並先輩, 森園先輩) -> MUST be "Name-senpai" (Suginami-senpai, Rikka-senpai); (2) When STANDALONE in MONOLOGUE/narration (no name) -> "kakak kelas" (e.g. 先輩たち = the senpai/kakak kelas). Standalone in DIALOGUE (direct address) may stay "Senpai"}
 [term] 先輩方 = para kakak kelas {honorific plural of 先輩 (先輩+方); follow the dual-style rule above}
 [term] マスター = Master {TWO MEANINGS: (1) 1951 London era: top-3 本科生 assigned as 予科 class supervisor (Shiki's address for the Captain/清隆); (2) general: master/majikan. Follow the scene context}
@@ -119,15 +119,15 @@
 [term] クラスメイト = teman sekelas {classmate; katakana form}
 [term] シェル = Shell {1951-London mechanic/command that 清隆 forgot after losing his memory; keep as "Shell"}
 [term] 女王陛下 = Yang Mulia Ratu {1951 London era; Her Majesty the Queen, the authority behind academy missions}
-[term] 前世 = kehidupan sebelumnya {reincarnation context: 1951-London mages reborn in the modern era}
+[term] 前世 = kehidupan sebelumnya {reincarnation context: Ricca (1951 London) reborn as Rikka (D.C.III main story). Era scenes can cross chapters: the prologue (2070s) shows past-life scenes, and Himeno's route has a dream of the post-reincarnation future}
 [term] 生まれ変わり = reinkarnasi {e.g. 大魔法使いの生まれ変わり = reincarnation of a great magician}
 [term] インファントスクール = Infant School {Charles' early school in England; keep the original name}
 [term] 喫茶店ケーキビフォアフラワーズ = Kafe Cake Before Flowers {1951-London cafe name (フラワーズ = Flowers)}
 [term] 音姉 = Oto-nee {Yoshiyuki's signature way of addressing Otome (DC2/DC3 P.S.); NEVER appears in DC3PS - cross-reference only}
-[place] 初音島 = Pulau Hatsune {place name; modern era; the suffix -jima (島) already means "island", so never render it as "Hatsunejima"}
+[place] 初音島 = Pulau Hatsune {place name; the suffix -jima (島) already means "island", so never render it as "Hatsunejima"}
 [place] 風見学園 = Akademi Kazami {place name; modern-era Pulau Hatsune; katakana variant: カザミ学園}
 [place] 王立ロンドン魔法学園 = Akademi Sihir Kerajaan London {place name; 1951 London era; nickname: 風見鶏/Weather Vane}
-[term] 予科生 = Siswa Persiapan {ONLY for the Royal London Magic Academy (風見鶏/Weather Vane) in the 1951 London era. NEVER for Akademi Kazami in the modern era}
+[term] 予科生 = Siswa Persiapan {ONLY for the Royal London Magic Academy (風見鶏/Weather Vane) in 1951 London. NEVER for Akademi Kazami}
 [term] 先生 = Sensei {use this term instead of guru}
 [term] 俺 = Aku {never use "loe/luh", "gue", or "kau". use "kamu" and "aku" only.}
 [term] 自分 = Aku {never use "loe/luh", "gue", or "kau". use "kamu" and "aku" only.}
