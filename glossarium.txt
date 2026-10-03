@@ -129,7 +129,7 @@
 [term] 音姉 = Oto-nee {Yoshiyuki's signature way of addressing Otome (DC2/DC3 P.S.); NEVER appears in DC3PS - cross-reference only}
 [place] 初音島 = Pulau Hatsune {place name; the suffix -jima (島) already means "island", so never render it as "Hatsunejima"}
 [place] 風見学園 = Akademi Kazami {place name; modern-era Pulau Hatsune; katakana variant: カザミ学園}
-[place] 王立ロンドン魔法学園 = Akademi Sihir Kerajaan London {place name; 1951 London era; nickname: 風見鶏/Weather Vane}
+[place] 王立ロンドン魔法学園 = Royal London Magic Academy {place name; 1951 London era; keep in English, do not translate to Indonesian; nickname: 風見鶏/Weather Vane}
 [term] 予科生 = Siswa Persiapan {ONLY for the Royal London Magic Academy (風見鶏/Weather Vane) in 1951 London. NEVER for Akademi Kazami}
 [term] 先生 = Sensei {use this term instead of guru}
 [term] 俺 = Aku {never use "loe/luh", "gue", or "kau". use "kamu" and "aku" only.}
