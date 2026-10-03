@@ -6,9 +6,9 @@
 [character] 音姫 = Otome {female name}
 [character] 朝倉由夢 = Asakura Yume {female name}
 [character] 由夢 = Yume {female name}
-[character] 森園立夏 = Morizono Ricca {female name}
+[character] 森園立夏 = Morizono Rikka {female name; kanji spelling of the PRESENT-DAY self (Pulau Hatsune / Akademi Kazami era); Rikka's past life is Ricca Greenwood}
 [character] 森園 = Morizono {family name}
-[character] 立夏 = Ricca {female name}
+[character] 立夏 = Rikka {female name; kanji spelling = PRESENT-DAY era (Pulau Hatsune / Akademi Kazami). NEVER use "Ricca" for the kanji 立夏; the katakana リッカ (Victorian era) is Ricca}
 [character] 孤高のカトレア = The Lone Cattleya {Ricca Greenwood's witch-era epithet (katakana: リッカ・グリーンウッド). Translate as an EPITHET, not a personal name}
 [character] 芳乃シャルル = Yoshino Charles {female name}
 [character] 芳乃 = Yoshino {family name}
@@ -57,8 +57,8 @@
 [character] 葛木清隆 = Katsuragi Kiyotaka {male name}
 [character] 陽ノ本葵 = Hinomoto Aoi {female name}
 [character] 陽ノ本 = Hinomoto {family name}
-[character] リッカ・グリーンウッド = Ricca Greenwood {female name}
-[character] リッカ = Ricca {family name}
+[character] リッカ・グリーンウッド = Ricca Greenwood {female name; katakana spelling of the VICTORIAN-era self (Weather Vane / Kazamidori arc, London); Ricca is Rikka's past life before reincarnation}
+[character] リッカ = Ricca {family name; katakana spelling = VICTORIAN era (Weather Vane / Kazamidori arc, London). NEVER use "Rikka" for the katakana リッカ; the kanji 立夏 (present day) is Rikka}
 [character] グリーンウッド = Greenwood {given name (female)}
 [character] サラ・クリサリス = Sara Chrysalis {female name}
 [character] サラ = Sara {family name}
@@ -68,9 +68,9 @@
 [character] ご主人様 = Goshujin-sama {male name}
 [character] マスター = Master {male name}
 [character] エドガー = Edgar {male name}
-[character] 美少女 = Gadis Cantik {beautiful girl; Ricca's nickname in the Kiyotaka reunion scene (dc3_1_0222). NOT a personal name - do not join with 残念な娘 as one entry}
+[character] 美少女 = Gadis Cantik {beautiful girl; Rikka's nickname in the Kiyotaka reunion scene (dc3_1_0222). NOT a personal name - do not join with 残念な娘 as one entry}
 [character] 美少女？ = Gadis Cantik {question-mark variant of 美少女 - translate WITHOUT the question mark: "Gadis Cantik" (CSTL rejects speaker names containing punctuation)}
-[character] 残念な娘 = Gadis Aneh {lit. hopeless/disappointing girl; Kiyotaka's mental nickname for Ricca in the same reunion scene (dc3_1_0222)}
+[character] 残念な娘 = Gadis Aneh {lit. hopeless/disappointing girl; Kiyotaka's mental nickname for Rikka in the same reunion scene (dc3_1_0222)}
 [character] 芳乃さくら = Yoshino Sakura {female name}
 [character] さくら = Sakura {female name}
 [character] エリカ・ムラサキ = Erika Murasaki {female name}
@@ -102,13 +102,13 @@
 [term] ウェザーベイン = Weather Vane {katakana form; refers to the Victorian-era dorm/organization: ウェザーベインの学生寮}
 [term] 新聞部 = Klub Berita {project decision: use "klub berita", NEVER "klub koran"}
 [term] 非公式新聞部 = Klub Berita Tidak Resmi {project decision; the rival of the official 新聞部}
-[term] 公式新聞部 = Klub Berita Resmi {used by Ricca during the duel against the 非公式新聞部}
+[term] 公式新聞部 = Klub Berita Resmi {used by Rikka during the duel against the 非公式新聞部}
 [term] 飛び級 = Percepatan kelas {grade skipping; e.g. ２年に飛び級してきた = skipped straight into year 2}
 [term] 風紀委員 = Komite Tata Tertib {風紀委員の委員長 = committee chairwoman; Shiki's role in Akademi Kazami}
 [term] 生徒会 = Dewan Siswa {生徒会役員 = student council officers; 生徒会室 = student council room}
 [term] ヨシユキ = Yoshiyuki {katakana; how the Victorian-era/Sakura arc refers to Sakurai Yoshiyuki}
 [term] オトメ = Otome {katakana; how the Victorian-era/Sakura arc refers to Asakura Otome}
-[term] 先輩 = Senpai {DUAL-STYLE RULE: (1) When ATTACHED TO A NAME (e.g. 杉並先輩, 森園先輩) -> MUST be "Name-senpai" (Suginami-senpai, Ricca-senpai); (2) When STANDALONE in MONOLOGUE/narration (no name) -> "kakak kelas" (e.g. 先輩たち = the senpai/kakak kelas). Standalone in DIALOGUE (direct address) may stay "Senpai"}
+[term] 先輩 = Senpai {DUAL-STYLE RULE: (1) When ATTACHED TO A NAME (e.g. 杉並先輩, 森園先輩) -> MUST be "Name-senpai" (Suginami-senpai, Rikka-senpai); (2) When STANDALONE in MONOLOGUE/narration (no name) -> "kakak kelas" (e.g. 先輩たち = the senpai/kakak kelas). Standalone in DIALOGUE (direct address) may stay "Senpai"}
 [term] 先輩方 = para kakak kelas {honorific plural of 先輩 (先輩+方); follow the dual-style rule above}
 [term] マスター = Master {TWO MEANINGS: (1) Victorian era: top-3 本科生 assigned as 予科 class supervisor (Shiki's address for the Captain/清隆); (2) general: master/majikan. Follow the scene context}
 [term] グニルック = Gnilruc {the magic sport (competitive magic game); spelling MUST be "Gnilruc", consistent across all scripts}
