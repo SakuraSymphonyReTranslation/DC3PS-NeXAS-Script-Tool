@@ -78,8 +78,8 @@ Dilengkapi dengan algoritma **Smart Character-Width Aware Word Wrapping**, **Cha
    - Mengurai bytecode NeXAS secara akurat, memetakan string dialog (`0x0001`) dan nama pembicara (`0x0002` / `0x0003`).
    - Menyaring otomatis aset audio/BGM, file gambar grafik, nama file skrip, dan jump label sistem.
    - Format JSON standar dan bersih:
-     - Dialog karakter: `{"name": "Hiyori", "message": "「Halo!」"}`
-     - Narasi / monolog: `{"message": "Aku berjalan di koridor sekolah."}`
+     - Dialog karakter: `{"name": "Rikka", "message": "「Halo!」"}`
+     - Narasi / monolog: `{"message": "Aku berjalan di koridor Akademi Kazami."}`
 
 2. **Smart Character-Width Aware Word Wrapping (Batas Rekomendasi: `56`)**
    - Menghitung lebar visual karakter East Asian / CJK secara presisi (`unicodedata.east_asian_width`): karakter fullwidth (seperti indentasi `\u3000`, tanda kurung `「` `」` `『` `』`, tanda elipsis `……`, dsb.) dihitung tepat sebagai **2 kolom visual**, sementara huruf Latin/ASCII dihitung **1 kolom visual**.
@@ -340,8 +340,8 @@ It ships with a **Smart Character-Width Aware Word Wrapping** algorithm, **Chain
    - Accurately parses NeXAS bytecode, mapping dialogue strings (`0x0001`) and speaker names (`0x0002` / `0x0003`).
    - Automatically filters out audio/BGM assets, graphic files, script filenames, and system jump labels.
    - Produces a clean, standard JSON format:
-     - Character dialogue: `{"name": "Hiyori", "message": "「Hello!」"}`
-     - Narration / monologue: `{"message": "I walked down the school corridor."}`
+     - Character dialogue: `{"name": "Rikka", "message": "「Hello!」"}`
+     - Narration / monologue: `{"message": "I walked down the Kazami Academy corridor."}`
 
 2. **Smart Character-Width Aware Word Wrapping (Recommended Limit: `56`)**
    - Precisely measures East Asian / CJK visual character widths using `unicodedata.east_asian_width`: fullwidth characters (like the `\u3000` ideographic space, brackets `「` `」` `『` `』`, ellipsis `……`, etc.) count as exactly **2 visual columns**, while Latin/ASCII letters count as **1 column**.
