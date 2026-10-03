@@ -124,8 +124,8 @@
 [term] 昭和 = Showa {Japanese era name (1926-1989); 昭和２５年 = 1950, the time-loop period in the dc3cs scenarios}
 [term] 西暦 = Masehi {AD / Western calendar year; used when contrasting with era names like 昭和}
 [term] 生まれ変わり = reinkarnasi {e.g. 大魔法使いの生まれ変わり = reincarnation of a great magician}
-[term] インファントスクール = Infant School {Charles' early school in England; keep the original name}
-[term] 喫茶店ケーキビフォアフラワーズ = Kafe Cake Before Flowers {1951-London cafe name (フラワーズ = Flowers)}
+[term] インファントスクール = Sekolah Dasar {UK infant school = lower primary, ages 4-7; Charles' early schooling in England (dc3_1_1222_e1_srr). Render as "sekolah dasar", not a literal "Infant School"}
+[term] 喫茶店ケーキビフォアフラワーズ = Kafe Kue Sebelum Bunga {cafe in the dc3cs scenarios (Showa-era island, dc3cs_1223_e1); name is katakana English, lit. "Cake Before Flowers" (フラワーズ = Flowers)}
 [term] 音姉 = Oto-nee {Yoshiyuki's signature way of addressing Otome (DC2/DC3 P.S.); NEVER appears in DC3PS - cross-reference only}
 [place] 初音島 = Pulau Hatsune {place name; the suffix -jima (島) already means "island", so never render it as "Hatsunejima"}
 [place] 風見学園 = Akademi Kazami {place name; modern-era Pulau Hatsune; katakana variant: カザミ学園}
