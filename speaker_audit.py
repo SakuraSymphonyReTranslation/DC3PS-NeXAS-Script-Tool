@@ -19,6 +19,10 @@ Perintah:
 Contoh:
   python speaker_audit.py audit   -c "../naskah_csv" -g "glossarium.txt"
   python speaker_audit.py suggest -c "../naskah_csv" -g "glossarium.txt"
+
+Catatan (2026-10): corpus CSV lama tools/naskah_csv sudah dihapus dan
+csv_dump.py kini deprecated. Alur resmi adalah export JSON CSTL; tool ini
+masih membaca CSV sampai diadaptasi ke sumber JSON.
 """
 import argparse
 import csv
@@ -50,8 +54,18 @@ def load_glossary_characters(gloss_path):
 
 def load_speakers(csv_path):
     """Return Counter(speaker -> jumlah baris) dari semua CSV."""
+    if not os.path.exists(csv_path):
+        raise SystemExit(
+            '[!] Path CSV tidak ditemukan: %r - corpus lama tools/naskah_csv '
+            'sudah dihapus dan csv_dump.py deprecated. Hasilkan CSV baru '
+            'atau tunggu adaptasi speaker_audit ke export JSON.' % csv_path)
     files = (sorted(glob.glob(os.path.join(csv_path, '**', '*.csv'), recursive=True))
              if os.path.isdir(csv_path) else [csv_path])
+    if not files:
+        raise SystemExit(
+            '[!] Tidak ada file CSV di %r - corpus lama tools/naskah_csv '
+            'sudah dihapus dan csv_dump.py deprecated. Hasilkan CSV baru '
+            'atau tunggu adaptasi speaker_audit ke export JSON.' % csv_path)
     speakers = Counter()
     for fp in files:
         with open(fp, encoding='utf-8-sig', newline='') as f:

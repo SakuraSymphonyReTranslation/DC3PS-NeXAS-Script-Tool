@@ -1,7 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-csv_dump.py — Dump naskah Da Capo III Plus Story ke CSV per chapter,
-siap diisi terjemahan, dengan kolom nama karakter.
+[DEPRECATED] csv_dump.py — Dump naskah Da Capo III Plus Story ke CSV per
+chapter, siap diisi terjemahan, dengan kolom nama karakter.
+
+ALUR CSV SUDAH TIDAK DIPAKAI LAGI. Workflow resmi sekarang:
+  extract .binu8 -> JSON (extract_script) dan insert JSON -> .binu8
+  (insert_script) di src/nexas/nexas_tool.py, dengan terjemahan dikerjakan
+  lewat export CSTL ({name, message}).
+Tool ini hanya disimpan untuk data lama — jangan dipakai untuk pekerjaan
+baru. Corpus lama tools/naskah_csv sudah dihapus dari dump.
+
+Satu file script .binu8 -> satu CSV dengan kolom:
 
 Satu file script .binu8 -> satu CSV dengan kolom:
   index     : nomor urut entri (SESAI urutan extractor/inserter JSON, sehingga
@@ -175,6 +184,9 @@ def main():
     ins.set_defaults(fn=cmd_insert)
 
     args = ap.parse_args()
+    print('[DEPRECATED] csv_dump.py: alur CSV sudah tidak dipakai - pakai '
+          'extract_script/insert_script (JSON) di src/nexas/nexas_tool.py. '
+          'Tool ini hanya untuk data lama.', file=sys.stderr)
     args.fn(args)
 
 
