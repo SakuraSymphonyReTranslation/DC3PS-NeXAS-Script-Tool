@@ -138,3 +138,5 @@
 [term] お前 = Kamu {never use "loe/luh", "gue", or "kau". use "kamu" and "aku" only.}
 [term] 君 = Kamu {never use "loe/luh", "gue", or "kau". use "kamu" and "aku" only.}
 [term] あんた = Kamu {never use "loe/luh", "gue", or "kau". use "kamu" and "aku" only.}
+[term] 彼 = dia {PRONOUN RULE: for a PERSON always use "dia", NEVER "ia"; "ia" is ONLY for inanimate/non-living things (wind, water, objects, etc.)}
+[term] 彼女 = dia {PRONOUN RULE: for a PERSON always use "dia", NEVER "ia"; "ia" is ONLY for inanimate/non-living things (wind, water, objects, etc.); means "girlfriend" in a clearly romantic context}
