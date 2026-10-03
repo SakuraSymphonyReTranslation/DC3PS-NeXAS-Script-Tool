@@ -52,8 +52,8 @@ Toolkit ekstraksi dan injeksi naskah skrip visual novel berbasis engine **Circus
 | Jumlah script | 598 file `.binu8` (± 70.000 entri dialog/narasi) — terverifikasi round-trip byte-safe |
 | Format bytecode | `VER-1.00`, opcode pembicara `(0,nama),(5,1),(0,pesan)`; hanya `__global.binu8` yang beda (bukan naskah, otomatis dilewati) |
 | Lokasi RomFS | Otomatis: `../romfs` di samping repo tool (layout dump Eden). Override: env `DC3PS_ROMFS=/path/ke/romfs` |
-| Timeline ganda | Kisah utama Pulau Hatsune (D.C.III, 1950-an) vs arc London 1951 (Weather Vane, pulau asrama); prolog = 2070-an. Kode suara karakter sama di semua era: 立夏/リッカ = `rcc`, さら/サラ = `sra` |
-| Peta kode karakter | `hmn`=姫乃, `rcc`=リッカ/立夏, `sra`=サラ/さら, `srr`=シャルル, `aoi`=葵, `mkt`=美琴, `ksk`=耕助, `sgn`=杉並, `tme`=巴, `ski`=四季, `skr`=さくら, `odt`=瑠璃香, `yzu`=ゆず, `yuh`=夕陽, `gil`=ジル, `erz`=エリザベス, `hms`=メアリー, `wts`=エドワード, `ian`=イアン, `eto`=エト, `kmk`=高松, `mnt`=美夏, `jdj`=女性ＤＪ |
+| Timeline ganda | Main story D.C.III (present day arc: common & route heroine, 1950-an) vs arc London 1951 (Weather Vane, kisah pulau asrama); prolog = 2070-an. Pulau Hatsune muncul di beberapa era (main story 1950-an, prolog 2070-an, mimpi masa depan di rute Himeno) — ikuti penanda JP di tiap baris |
+| Peta kode karakter | `hmn`=姫乃, `rcc`=立夏/リッカ (main story), `rccc`=リッカ/金髪の少女 (adegan katakana/London), `sra`=さら/サラ, `sraa`=さら (dc3cs), `srr`=シャルル, `aoi`=葵, `mkt`=美琴, `ksk`=耕助, `sgn`=杉並, `tme`=巴, `ski`=四季, `skr`=さくら (Yoshino Sakura, pengelana waktu lintas era), `odt`=瑠璃香, `yzu`=ゆず, `yuh`=夕陽, `gil`=ジル, `erz`=エリザベス, `hms`=メアリー, `wts`=エドワード, `ian`=イアン, `eto`=エト, `kmk`=高松, `mnt`=美夏, `jdj`=女性ＤＪ |
 | Tag khusus DC3 | `@g－` (gaiji dash) dibersihkan otomatis saat ekstraksi; tag `@h...` memakai penamaan sprite khas DC3 |
 | Word wrap | Rekomendasi **56 kolom** (baris asli DC3 terpanjang ± 148 kolom, wrap wajib untuk teks Latin) |
 | Tool UI | Mengekstrak 762 string SPM + 917 string Config; **`Config/system.datu8` DC3PS adalah format font khusus (bukan tabel datu8) dan otomatis dilewati** |
