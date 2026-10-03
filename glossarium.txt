@@ -6,9 +6,9 @@
 [character] 音姫 = Otome {female name}
 [character] 朝倉由夢 = Asakura Yume {female name}
 [character] 由夢 = Yume {female name}
-[character] 森園立夏 = Morizono Rikka {female name; kanji spelling of the Hatsune-Island self (D.C.III main story, 1950s); Rikka's past life is Ricca Greenwood}
+[character] 森園立夏 = Morizono Rikka {female name; kanji spelling of the main-story self (D.C.III present-day arc: common & heroine routes, 1950s); Rikka's past life is Ricca Greenwood}
 [character] 森園 = Morizono {family name}
-[character] 立夏 = Rikka {female name; kanji spelling = D.C.III main story, Hatsune Island (1950s; Akademi Kazami). NEVER use "Ricca" for the kanji 立夏; the katakana リッカ (1951 London, Weather Vane arc) is Ricca}
+[character] 立夏 = Rikka {female name; kanji spelling = D.C.III present-day arc (main story: common & heroine routes, 1950s; Akademi Kazami). NEVER use "Ricca" for the kanji 立夏; the katakana リッカ (1951 London, Weather Vane arc) is Ricca}
 [character] 孤高のカトレア = The Lone Cattleya {Ricca Greenwood's witch-era epithet (katakana: リッカ・グリーンウッド). Translate as an EPITHET, not a personal name}
 [character] 芳乃シャルル = Yoshino Charles {female name}
 [character] 芳乃 = Yoshino {family name}
@@ -58,7 +58,8 @@
 [character] 陽ノ本葵 = Hinomoto Aoi {female name}
 [character] 陽ノ本 = Hinomoto {family name}
 [character] リッカ・グリーンウッド = Ricca Greenwood {female name; katakana spelling used in the Weather Vane / Kazamidori arc (1951 London, mid-20th century - NOT the Victorian era); Ricca is Rikka's past life before reincarnation}
-[character] リッカ = Ricca {family name; katakana spelling = 1951 London (Weather Vane / Kazamidori arc, mid-20th century). NEVER use "Rikka" for the katakana リッカ; the kanji 立夏 (present day) is Rikka}
+[character] リッカ = Ricca {family name; katakana spelling = 1951 London (Weather Vane / Kazamidori arc, mid-20th century). NEVER use "Rikka" for the katakana リッカ; the kanji 立夏 (D.C.III main story) is Rikka}
+[character] 金髪の少女 = Gadis Berambut Pirang {the blonde girl; = Ricca Greenwood in the Weather Vane arc (voice code rccc, same voice as リッカ)}
 [character] グリーンウッド = Greenwood {given name (female)}
 [character] サラ・クリサリス = Sara Chrysalis {female name}
 [character] サラ = Sara {family name}
@@ -72,7 +73,7 @@
 [character] 美少女？ = Gadis Cantik {question-mark variant of 美少女 - translate WITHOUT the question mark: "Gadis Cantik" (CSTL rejects speaker names containing punctuation)}
 [character] 残念な娘 = Gadis Aneh {lit. hopeless/disappointing girl; Kiyotaka's mental nickname for Rikka in the same reunion scene (dc3_1_0222)}
 [character] 芳乃さくら = Yoshino Sakura {female name}
-[character] さくら = Sakura {female name}
+[character] さくら = Sakura {female name; Yoshino Sakura, the time-traveling witch who appears across eras (Kazamidori 1951 London, D.C.II era, D.C.III present-day arc); voice code skr}
 [character] エリカ・ムラサキ = Erika Murasaki {female name}
 [character] エリカ = Erika {family name}
 [character] ムラサキ = Murasaki {given name (female)}
@@ -120,6 +121,8 @@
 [term] シェル = Shell {1951-London mechanic/command that 清隆 forgot after losing his memory; keep as "Shell"}
 [term] 女王陛下 = Yang Mulia Ratu {1951 London era; Her Majesty the Queen, the authority behind academy missions}
 [term] 前世 = kehidupan sebelumnya {reincarnation context: Ricca (1951 London) reborn as Rikka (D.C.III main story). Era scenes can cross chapters: the prologue (2070s) shows past-life scenes, and Himeno's route has a dream of the post-reincarnation future}
+[term] 昭和 = Showa {Japanese era name (1926-1989); 昭和２５年 = 1950, the time-loop period in the dc3cs scenarios}
+[term] 西暦 = Masehi {AD / Western calendar year; used when contrasting with era names like 昭和}
 [term] 生まれ変わり = reinkarnasi {e.g. 大魔法使いの生まれ変わり = reincarnation of a great magician}
 [term] インファントスクール = Infant School {Charles' early school in England; keep the original name}
 [term] 喫茶店ケーキビフォアフラワーズ = Kafe Cake Before Flowers {1951-London cafe name (フラワーズ = Flowers)}
