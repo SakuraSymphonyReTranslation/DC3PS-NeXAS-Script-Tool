@@ -20,7 +20,7 @@ from pathlib import Path
 GAME_TITLE = "Da Capo III Plus Story"
 GAME_TID = "010041601B544000"
 
-VOICE_REGEX = re.compile(r'^(@v\S+?)(?=[「『（\s]|$)\s*')
+VOICE_REGEX = re.compile(r'^(@v[A-Za-z0-9_]+)\s*')
 
 # Kata kunci sistem engine (di akhir scene opcode (0,nama),(5,1),(0,pesan)
 # bisa memakai string ini sebagai "pesan" — bukan nama pembicara).
@@ -466,17 +466,16 @@ except ImportError:
         from . import script_auto_wrap  # pemakaian sebagai paket src.nexas
     except ImportError:
         script_auto_wrap = None
+
+if script_auto_wrap is not None:
     def apply_word_wrap(text, max_len=56, initial_width=0):
         if not max_len or max_len <= 0:
             return text
-        if script_auto_wrap is None:
-            return text
         return script_auto_wrap.wrap_text(text, max_chars=max_len, initial_width=initial_width)
+
     def visible_length(text):
-        if script_auto_wrap is None:
-            return len(text)
         return script_auto_wrap.visible_length(text)
-except ImportError:
+else:
     import unicodedata
     def char_width(c):
         if c in '\u3000…「」『』・―〜～★☆♪※♥':
@@ -487,7 +486,7 @@ except ImportError:
         return 1
 
     def visible_length(text):
-        clean = re.sub(r'@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|n|k|g)', '', text)
+        clean = re.sub(r'@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|m\d+|s\d+|n|k|g)', '', text)
         return sum(char_width(c) for c in clean)
 
     def apply_word_wrap(text, max_len=56, initial_width=0):
@@ -505,7 +504,7 @@ except ImportError:
             initial_width += 1
 
         text = text.replace("@n", "")
-        tokens = re.findall(r'@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|n|k|g|[a-zA-Z0-9_]+)|\s+|[^\s@]+', text)
+        tokens = re.findall(r'@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|m\d+|s\d+|n|k|g|[a-zA-Z0-9_]+)|\s+|[^\s@]+', text)
         lines = []
         current = ""
         pending_space = ""
@@ -513,7 +512,7 @@ except ImportError:
             if token.isspace():
                 pending_space = token
                 continue
-            if re.match(r'^@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|n|k|g)', token):
+            if re.match(r'^@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|m\d+|s\d+|n|k|g)', token):
                 current += pending_space + token
                 pending_space = ""
                 continue

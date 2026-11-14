@@ -6,7 +6,7 @@ MAX_CHARS = 56
 # Control code NeXAS.
 # Control code tidak dihitung sebagai karakter layar.
 CONTROL_CODE = re.compile(
-    r'@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|n|k|g|d|b|e|o\d+|\*stamp@[A-Za-z0-9_]+@|r[^@]+@[^@]*@)'
+    r'@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|m\d+|s\d+|n|k|g|d|b|e|o\d+|\*stamp@[A-Za-z0-9_]+@|r[^@]+@[^@]*@)'
 )
 
 
@@ -33,7 +33,7 @@ def tokenize(text):
     """
 
     pattern = re.compile(
-        r'@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|n|k|g|d|b|e|o\d+|\*stamp@[A-Za-z0-9_]+@|r[^@]+@[^@]*@)'
+        r'@(?:v[A-Za-z0-9_]+|h[A-Za-z0-9_]+|t\d+|m\d+|s\d+|n|k|g|d|b|e|o\d+|\*stamp@[A-Za-z0-9_]+@|r[^@]+@[^@]*@)'
         r'|\s+'
         r'|[^\s@]+'
     )
